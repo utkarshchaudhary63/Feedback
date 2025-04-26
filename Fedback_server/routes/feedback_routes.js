@@ -29,6 +29,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+// GET /feedback/:id - Fetch particular feedback
 router.get('/:id', async (req, res) => {
   const feedbackId = req.params.id;
 
@@ -45,6 +46,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// DELETE /feedback/:id - Delete partiuclar feedback
 router.delete('/:id', async (req, res) => {
   try {
     const { id } = req.params;

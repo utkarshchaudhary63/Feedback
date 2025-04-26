@@ -1,0 +1,31 @@
+.page-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  padding: 30px;
+}
+
+.left-panel {
+  background-color: black;
+  border-right: 2px solid #f0f0f0;
+  flex: 0.4;
+  color: #f0f0f0;
+}
+
+.right-panel {
+  background-color: rgb(105, 105, 209);
+  flex: 0.6;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}

@@ -16,14 +16,15 @@ A full-stack Feedback Management System built with **React.js**, **Node.js**, **
 
 ### Step 1: Clone the repository
 
-git clone https://github.com/your-username/feedback-app.git
+git clone https://github.com/utkarshchaudhary63/Feedback.git
 
-### Step 2: Run backend server
-1. Open Feedback_server in terminal 
-2. Run command 'npm run start'
+### Step 2: Set up the Backend
+1. Open Feedback_server in terminal
+2. npm install
+3. Run command 'npm run start'
 
 ### Step 3: Run Frontend 
 1. Open feedback-forntend in terminal 
-2. Run command 'npm start'
+2. npm install
+3. Run command 'npm start'
 
-### Step 1: Clone the repository
